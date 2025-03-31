@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.hero-section{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.img-hero-section{
+
+    display: flex;
+    height: 20%;
+    width: 20%;
+    overflow: hidden;
+}
+
+.img-hero-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
