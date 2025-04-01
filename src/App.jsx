@@ -5,6 +5,7 @@ import Layout from './components/Layout'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
+import Github, { gitData } from './components/GitHub/Github'
 
 function App() {
 
@@ -25,6 +26,11 @@ function App() {
           {
             path : "/contact",
             element : <Contact />
+          },
+          {
+            path : "/github",
+            element : <Github />,
+            loader : gitData
           }
         ]
       }

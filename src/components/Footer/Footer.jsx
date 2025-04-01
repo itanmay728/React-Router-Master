@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-y border-0">
+    <footer className="bg-white border-y border-0 ">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -46,7 +46,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <Link to="https://discord.gg/bDnGgEFG" target="_blank" className="hover:underline">
+                  <Link
+                    to="https://discord.gg/bDnGgEFG"
+                    target="_blank"
+                    className="hover:underline"
+                  >
                     Discord
                   </Link>
                 </li>
@@ -100,7 +104,11 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Facebook page</span>
             </Link>
-            <Link to="https://www.instagram.com/itanmay728/" target="_blank" className="text-gray-500">
+            <Link
+              to="https://www.instagram.com/itanmay728/"
+              target="_blank"
+              className="text-gray-500"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -112,7 +120,11 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Instagram</span>
             </Link>
-            <Link to="https://x.com/Tanmay728" target="_blank" className="text-gray-500">
+            <Link
+              to="https://x.com/Tanmay728"
+              target="_blank"
+              className="text-gray-500"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -128,7 +140,11 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Twitter page</span>
             </Link>
-            <Link to="https://github.com/itanmay728" target="_blank" className="text-gray-500">
+            <Link
+              to="https://github.com/itanmay728"
+              target="_blank"
+              className="text-gray-500"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
